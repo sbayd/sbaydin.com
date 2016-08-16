@@ -38,7 +38,8 @@
             <img class="profile" src="assets/images/profile.png" alt=""/>
             <h1 class="name">S.Berkay Aydın</h1>
             <h3 class="tagline">Full Stack Developer</h3>
-            <h3 class="tagline"><a href="berkay_aydin_cv.pdf" target="_blank">Download PDF Resume</a></h3>
+            <hr>
+            <a href="berkay_aydin_cv.pdf" target="_blank" class="btn btn-default btn-block" style="color:black !important;">Download PDF Resume</a>
         </div><!--//profile-container-->
 
         <div class="contact-container container-block">
