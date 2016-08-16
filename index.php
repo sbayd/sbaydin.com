@@ -61,32 +61,29 @@
         <div class="education-container container-block">
             <h2 class="container-block-title">Education</h2>
             <div class="item">
-                <h4 class="degree">MSc in Computer Science</h4>
-                <h5 class="meta">University of London</h5>
-                <div class="time">2011 - 2012</div>
-            </div><!--//item-->
-            <div class="item">
-                <h4 class="degree">BSc in Applied Mathematics</h4>
-                <h5 class="meta">Bristol University</h5>
-                <div class="time">2007 - 2011</div>
+                <h4 class="degree">BSc in <a href="http://www.ebit.hacettepe.edu.tr" target="_blank" >CEIT</a> </h4>
+                <h5 class="meta">Hacettepe University</h5>
+                <div class="time">2012 - Present</div>
             </div><!--//item-->
         </div><!--//education-container-->
 
         <div class="languages-container container-block">
             <h2 class="container-block-title">Languages</h2>
             <ul class="list-unstyled interests-list">
-                <li>English <span class="lang-desc">(Native)</span></li>
-                <li>French <span class="lang-desc">(Professional)</span></li>
-                <li>Spanish <span class="lang-desc">(Professional)</span></li>
+                <li>Turkish <span class="lang-desc">(Native)</span></li>
+                <li>English <span class="lang-desc">(Professional)</span></li>
             </ul>
         </div><!--//interests-->
 
         <div class="interests-container container-block">
-            <h2 class="container-block-title">Interests</h2>
+            <h2 class="container-block-title">Interests & Hobies</h2>
             <ul class="list-unstyled interests-list">
-                <li>Climbing</li>
-                <li>Snowboarding</li>
+                <li>Pipes</li>
+                <li>Analog Photography</li>
                 <li>Cooking</li>
+                <li>Archery</li>
+                <li>Poems</li>
+                <li>Drums</li>
             </ul>
         </div><!--//interests-->
 
@@ -97,75 +94,65 @@
         <section class="section summary-section">
             <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
             <div class="summary">
-                <p>Summarise your career here lorem ipsum dolor sit amet, consectetuer adipiscing elit. You can <a
-                        href="http://themes.3rdwavemedia.com/website-templates/orbit-free-resume-cv-template-for-developers/"
-                        target="_blank">download this free resume/CV template here</a>. Aenean commodo ligula eget dolor
-                    aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                    Donec quam felis, ultricies nec, pellentesque eu.</p>
+                <p>I'm coding something since I was 14. In the beginning I was creating game servers for popular games,
+                after that I started with php and created some basic apps for small-sized companies. Then I decided to
+                train myself. And now, I have successfully finished a good many projects for companies, universities and my government
+                you can see the project details <a href="#projects">below.</a> So, may be we can work together!</p>
             </div><!--//summary-->
         </section><!--//section-->
 
         <section class="section experiences-section">
             <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-
             <div class="item">
                 <div class="meta">
                     <div class="upper-row">
-                        <h3 class="job-title">Lead Developer</h3>
-                        <div class="time">2015 - Present</div>
+                        <h3 class="job-title">Freelance Developer</h3>
+                        <div class="time">2009 - Present</div>
                     </div><!--//upper-row-->
-                    <div class="company">Startup Hubs, San Francisco</div>
                 </div><!--//meta-->
                 <div class="details">
-                    <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-                        Nulla consequat massa quis enim. Donec pede justo.</p>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                        dicta sunt explicabo. </p>
+                    <p>We can work together about creating any kind of management systems, mobile apps, image processing projects. My skills are listed
+                        <a href="#skills">below.</a></p>
                 </div><!--//details-->
             </div><!--//item-->
 
             <div class="item">
                 <div class="meta">
                     <div class="upper-row">
-                        <h3 class="job-title">Senior Software Engineer</h3>
-                        <div class="time">2014 - 2015</div>
+                        <h3 class="job-title">Full-Stack Developer</h3>
+                        <div class="time">2012 - Present</div>
                     </div><!--//upper-row-->
-                    <div class="company">Google, London</div>
+                    <div class="company"><a href="http://ydyazilim.com" target="_blank">YD Software</a>, ANKARA METU Technopolis(ODTU Teknokent)</div>
                 </div><!--//meta-->
                 <div class="details">
-                    <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-
+                    <p>I am using ASP.Net MVC Framework with N Tier Architecture to develop management systems,
+                        learning management systems & big data projects. And i am developing Android / IOS applications
+                        using Xamarin or NDK. You can see projects that I have completed for YD Software <a href="#projects">below.</a></p>
                 </div><!--//details-->
             </div><!--//item-->
 
             <div class="item">
                 <div class="meta">
                     <div class="upper-row">
-                        <h3 class="job-title">UI Developer</h3>
-                        <div class="time">2012 - 2014</div>
+                        <h3 class="job-title">Intern</h3>
+                        <div class="time">2012.06 - 2012.10</div>
                     </div><!--//upper-row-->
-                    <div class="company">Amazon, London</div>
+                    <div class="company"><a href="http://ydyazilim.com" target="_blank">YD Software</a>, ANKARA METU Technopolis(ODTU Teknokent)</div>
                 </div><!--//meta-->
                 <div class="details">
-                    <p>Describe your role here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                        ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                    <p>I was warming up with and Learning Management System including desktop and web apps.</p>
                 </div><!--//details-->
             </div><!--//item-->
 
         </section><!--//section-->
 
-        <section class="section projects-section">
+        <section class="section projects-section" id="projects">
             <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
             <div class="intro">
-                <p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>
+                <p>Projects, i have completed are listed below. To get general information about private project or not-completed projects you can get in touch.</p>
             </div><!--//intro-->
+            <h5>YD Software</h5>
+            <hr>
             <div class="item">
                 <span class="project-title"><a href="#hook">Velocity</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>
 
@@ -193,7 +180,7 @@
             </div><!--//item-->
         </section><!--//section-->
 
-        <section class="skills-section section">
+        <section class="skills-section section" id="skills">
             <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
             <div class="skillset">
                 <ul class="skillset">
@@ -213,9 +200,13 @@
                     <li>MONGODB</li>
                     <li>MYSQL</li>
                     <li>SQLITE</li>
+                    <li>LINQ</li>
+                    <li>PL/SQL</li>
+                    <li>Image Processing</li>
                     <li>N-TIER ARCHITECTURE</li>
                     <li>SOA ARCHITECTURE</li>
                     <li>ANGULAR2</li>
+                    <li>RASPBERRY</li>
                     <li>CODEIGNITER</li>
                     <li>UBUNTU</li>
                     <li>DEBIAN</li>
@@ -223,7 +214,6 @@
                     <li>WINDOWS</li>
                     <li>WINDOWS SERVER</li>
                 </ul>
-
             </div>
         </section><!--//skills-section-->
 
