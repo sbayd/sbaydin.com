@@ -196,53 +196,33 @@
         <section class="skills-section section">
             <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
             <div class="skillset">
-                <div class="item">
-                    <h3 class="level-title">Python &amp; Django</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="98%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <h3 class="level-title">Javascript &amp; jQuery</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="98%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <h3 class="level-title">Angular</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="98%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <h3 class="level-title">HTML5 &amp; CSS</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="95%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <h3 class="level-title">Ruby on Rails</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="85%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <h3 class="level-title">Sketch &amp; Photoshop</h3>
-                    <div class="level-bar">
-                        <div class="level-bar-inner" data-level="60%">
-                        </div>
-                    </div><!--//level-bar-->
-                </div><!--//item-->
+                <ul class="skillset">
+                    <li>C#</li>
+                    <li>ASP.NET MVC</li>
+                    <li>PHP</li>
+                    <li>SOLID PRINCIPLES</li>
+                    <li>C++</li>
+                    <li>OPENCV</li>
+                    <li>XAMARIN</li>
+                    <li>ANDROID SDK </li>
+                    <li>LARAVEL</li>
+                    <li>JAVA</li>
+                    <li>SQL SERVER</li>
+                    <li>MONGODB</li>
+                    <li>ORACLE 11G&12G</li>
+                    <li>MONGODB</li>
+                    <li>MYSQL</li>
+                    <li>SQLITE</li>
+                    <li>N-TIER ARCHITECTURE</li>
+                    <li>SOA ARCHITECTURE</li>
+                    <li>ANGULAR2</li>
+                    <li>CODEIGNITER</li>
+                    <li>UBUNTU</li>
+                    <li>DEBIAN</li>
+                    <li>MINT</li>
+                    <li>WINDOWS</li>
+                    <li>WINDOWS SERVER</li>
+                </ul>
 
             </div>
         </section><!--//skills-section-->
@@ -252,7 +232,7 @@
 
 <footer class="footer">
     <div class="text-center">
-        
+
     </div><!--//container-->
 </footer><!--//footer-->
 
