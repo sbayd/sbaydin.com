@@ -1,11 +1,7 @@
-
-
-var experiencesDataJson = {};
-function initExperiences() {
-    jQuery.getJSON('data/experiences.json').done(function (data) {
-        experiencesDataJson = data;
-    })
+function jsonToArray(JsonData) {
+    var arr = [];
+    arr = $.map(JsonData, function (value, index) {
+        return [value];
+    });
+    return arr;
 }
-
-
-

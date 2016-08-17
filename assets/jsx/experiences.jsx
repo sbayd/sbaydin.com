@@ -20,12 +20,10 @@ var Experiences = React.createClass({
         var self = this;
         if (this.state.experienceData == null) {
             return (<div>
-            Loading..
+                Loading..
             </div>);
         }
-        var experienceArray = $.map(this.state.experienceData, function (value, index) {
-            return [value];
-        });
+        var experienceArray = jsonToArray(this.state.experienceData);
         return (
             <div className="item">
                 {
@@ -45,7 +43,6 @@ var Experiences = React.createClass({
                         </div>
                     })
                 }
-
             </div>
 
         );

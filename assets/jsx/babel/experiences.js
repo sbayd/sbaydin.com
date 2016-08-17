@@ -29,9 +29,7 @@ var Experiences = React.createClass({
                 "Loading.."
             );
         }
-        var experienceArray = $.map(this.state.experienceData, function (value, index) {
-            return [value];
-        });
+        var experienceArray = jsonToArray(this.state.experienceData);
         return React.createElement(
             "div",
             { className: "item" },

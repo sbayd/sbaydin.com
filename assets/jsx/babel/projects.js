@@ -30,9 +30,7 @@ var Projects = React.createClass({
                 "Loading.."
             );
         }
-        var projectArray = $.map(this.state.projectData, function (value, index) {
-            return [value];
-        });
+        var projectArray = jsonToArray(this.state.projectData);
         return React.createElement(
             "div",
             null,
