@@ -1,0 +1,20 @@
+[
+  {
+    "Title": "Freelance Developer",
+    "Date": "2009 - Present",
+    "Address": "",
+    "Description": "We can work together about creating any kind of management systems, mobile apps, image processing projects. My skills are listed <a href=\"#skills\">below.</a>"
+  },
+  {
+    "Title": "Full-Stack Developer",
+    "Address": "<a href=\"http://ydyazilim.com\" target=\"_blank\">YD Software</a>, ANKARA METU Technopolis(ODTU Teknokent)",
+    "Date": "2012 - Present",
+    "Description": "I am using ASP.Net MVC Framework with N Tier Architecture to develop management systems, learning management systems & big data projects. And i am developing Android / IOS applications using Xamarin or NDK. You can see projects that I have completed for YD Software <a href=\"#projects\">below.</a>"
+  },
+  {
+    "Title": "Intern",
+    "Date": "2012.06 - 2012.10",
+    "Address": "<a href=\"http://ydyazilim.com\" target=\"_blank\">YD Software</a>, ANKARA METU Technopolis(ODTU Teknokent)",
+    "Description": "I was warming up with and Learning Management System including desktop and web apps."
+  }
+]

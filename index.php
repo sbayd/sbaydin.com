@@ -29,17 +29,23 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="assets/js/react.js"></script>
+    <script src="assets/js/react-dom.js"></script>
+
 </head>
 
 <body>
 <div class="wrapper">
+    <section class="sampleapp"></section>
+
     <div class="sidebar-wrapper">
         <div class="profile-container">
             <img class="profile" src="assets/images/profile.png" alt=""/>
             <h1 class="name">S.Berkay Aydın</h1>
             <h3 class="tagline">Full Stack Developer</h3>
             <hr>
-            <a href="berkay_aydin_cv.pdf" target="_blank" class="btn btn-default btn-block" style="color:black !important;">Download PDF Resume</a>
+            <a href="berkay_aydin_cv.pdf" target="_blank" class="btn btn-default btn-block"
+               style="color:black !important;">Download PDF Resume</a>
         </div><!--//profile-container-->
 
         <div class="contact-container container-block">
@@ -108,209 +114,27 @@
 
         <section class="section experiences-section">
             <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
-            <div class="item">
-                <div class="meta">
-                    <div class="upper-row">
-                        <h3 class="job-title">Freelance Developer</h3>
-                        <div class="time">2009 - Present</div>
-                    </div><!--//upper-row-->
-                </div><!--//meta-->
-                <div class="details">
-                    <p>We can work together about creating any kind of management systems, mobile apps, image processing
-                        projects. My skills are listed
-                        <a href="#skills">below.</a></p>
-                </div><!--//details-->
-            </div><!--//item-->
-
-            <div class="item">
-                <div class="meta">
-                    <div class="upper-row">
-                        <h3 class="job-title">Full-Stack Developer</h3>
-                        <div class="time">2012 - Present</div>
-                    </div><!--//upper-row-->
-                    <div class="company"><a href="http://ydyazilim.com" target="_blank">YD Software</a>, ANKARA METU
-                        Technopolis(ODTU Teknokent)
-                    </div>
-                </div><!--//meta-->
-                <div class="details">
-                    <p>I am using ASP.Net MVC Framework with N Tier Architecture to develop management systems,
-                        learning management systems & big data projects. And i am developing Android / IOS applications
-                        using Xamarin or NDK. You can see projects that I have completed for YD Software <a
-                            href="#projects">below.</a></p>
-                </div><!--//details-->
-            </div><!--//item-->
-
-            <div class="item">
-                <div class="meta">
-                    <div class="upper-row">
-                        <h3 class="job-title">Intern</h3>
-                        <div class="time">2012.06 - 2012.10</div>
-                    </div><!--//upper-row-->
-                    <div class="company"><a href="http://ydyazilim.com" target="_blank">YD Software</a>, ANKARA METU
-                        Technopolis(ODTU Teknokent)
-                    </div>
-                </div><!--//meta-->
-                <div class="details">
-                    <p>I was warming up with and Learning Management System including desktop and web apps.</p>
-                </div><!--//details-->
-            </div><!--//item-->
-
+            <div id="experiences">
+            </div>
         </section><!--//section-->
 
-        <section class="section projects-section" id="projects">
+        <section class="section projects-section" >
             <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
             <div class="intro">
                 <p>Projects, i have completed are listed below. To get general information about private project or
                     not-finished projects you can get in touch.</p>
             </div><!--//intro-->
-            <h5>YD Software</h5>
-            <hr>
-            <div class="item">
-                <span class="project-title"><a href="http://mavimasa.ankara.bel.tr" target="_blank">Mavi Masa</a></span>
-                - <span
-                    class="project-tagline">
-                    Ankara Metropolitan Municipality - Mavi Masa Project - Mobile Applications (C# / Oracle / Android SDK - Java / iOS SDK/ Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://giris.odtuteknokent.com.tr" target="_blank">TKBS</a></span>
-                - <span
-                    class="project-tagline">
-                     METU Technopolis Information System ( C# / SQL Server / Xamarin / MongoDB / Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://yfyi2.odtuteknokent.com.tr" target="_blank">YFYİ</a></span>
-                - <span
-                    class="project-tagline">
-                    New Business New Ideas(YFYİ) Entrepreneurship Acceleration Program Management System ( C# / SQL Server / Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://ggj.odtuteknokent.com.tr"
-                                               target="_blank">Global Game Jam</a></span>
-                - <span
-                    class="project-tagline">
-                    Global Game Jam (METU Technopolis) Management System ( C# / SQL Server / Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://atom.odtuteknokent.com.tr" target="_blank">ATOM in Games</a></span>
-                - <span
-                    class="project-tagline">
-                    ATOM Pre-Incubation Center (METU Technopolis) Management System ( C# / SQL Server / Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://sanayipolitikalari.sanayi.gov.tr" target="_blank">Sanayi Politikalari Portali</a></span>
-                - <span
-                    class="project-tagline">
-                    T.C. Industry Ministry Industrial Policies Portal ( C# / SQL Server / Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://teknojump2.odtuteknokent.com.tr"
-                                               target="_blank">TeknoJUMP</a></span>
-                - <span
-                    class="project-tagline">
-                    TeknoJUMP Entrepreneurship Acceleration Program Management System ( C# / SQL Server / Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://bigg.odtuteknokent.com.tr" target="_blank">TUBITAK BIGG / 1512</a></span>
-                - <span
-                    class="project-tagline">
-                    TUBITAK Invidual Young Enterprise(BİGG/1512) Program Management System - METU ( C# / SQL Server / Web Services )
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://aosb.org.tr" target="_blank">AOSB</a></span>
-                - <span
-                    class="project-tagline">
-                    Ankara Chamber of Industry 1st Organized Industrial Zone Web Portal - Mobile Applications (C#, SQL Server, Android SDK - Java / iOS SDK / Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="#" >AMS App</a></span>
-                - <span
-                    class="project-tagline">
-                    Central Bank of the Republic of Turkey (TCMB) Mobile Archive Management System ( Android SDK / Xamarin / Urovo SDK)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://yee.org.tr" target="_blank">YEE Z-BOOK</a></span>
-                - <span
-                    class="project-tagline">
-                    Yunus Emre Institute Z-Book Education Platform (C#/ MongoDB/ SQLite, Web Services)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://evdekiogretmen.bilfen.com" target="_blank">Evdeki Ögretmen(Teacher at Home)</a></span>
-                - <span
-                    class="project-tagline">
-                Bilfen Evdeki Ogretmen Online Education System (C# / SQL Server / Web Services)
-                </span>
-            </div><!--//item-->
-            <h5>Extracurricular Activities</h5>
-            <div class="item">
-                <span class="project-title"><a href="#" >Mobile Exam System</a></span>
-                - <span
-                    class="project-tagline">
-                A mobile exam project for a company written with Xamarin.Android, Laravel
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="http://www.karmer.hacettepe.edu.tr/hutest/" target="_blank">RIASEC Student Career Profile</a></span>
-                - <span
-                    class="project-tagline">
-                Hacettepe University Career Development Application And Research Center Student Profile Application ( PHP(CI), MySQL, MongoDB)
-                </span>
-            </div><!--//item-->
-            <div class="item">
-                <span class="project-title"><a href="#" >Educational Mobile Game Framework</a></span>
-                - <span
-                    class="project-tagline">
-                    A personal project for physical interactive mobile game development ( C#, Xamarin, Vuforia , OpenCV, MongoDB)
-                </span>
-            </div><!--//item-->
+           <div id="projects"></div>
         </section><!--//section-->
 
-        <section class="skills-section section" id="skills">
+        <!--skills-section-->
+        <section class="skills-section section">
             <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-            <div class="skillset">
-                <ul class="skillset">
-                    <li>C#</li>
-                    <li>ASP.NET MVC</li>
-                    <li>PHP</li>
-                    <li>SOLID PRINCIPLES</li>
-                    <li>C++</li>
-                    <li>OPENCV</li>
-                    <li>XAMARIN</li>
-                    <li>ANDROID SDK</li>
-                    <li>LARAVEL</li>
-                    <li>JAVA</li>
-                    <li>SQL SERVER</li>
-                    <li>MONGODB</li>
-                    <li>ORACLE 11G&12G</li>
-                    <li>MONGODB</li>
-                    <li>MYSQL</li>
-                    <li>SQLITE</li>
-                    <li>LINQ</li>
-                    <li>PL/SQL</li>
-                    <li>Image Processing</li>
-                    <li>N-TIER ARCHITECTURE</li>
-                    <li>SOA ARCHITECTURE</li>
-                    <li>ANGULAR2</li>
-                    <li>RASPBERRY</li>
-                    <li>CODEIGNITER</li>
-                    <li>UBUNTU</li>
-                    <li>DEBIAN</li>
-                    <li>MINT</li>
-                    <li>WINDOWS</li>
-                    <li>WINDOWS SERVER</li>
-                </ul>
+            <div id="skills">
+
             </div>
-        </section><!--//skills-section-->
+        </section>
+        <!--//skills-section-->
 
     </div><!--//main-body-->
 </div>
@@ -324,8 +148,12 @@
 <!-- Javascript -->
 <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<!-- custom js -->
-<script type="text/javascript" src="assets/js/main.js"></script>
+
+<!-- custom jsx -->
+<script type="text/javascript" src="assets/jsx/babel/projects.js"></script>
+<script type="text/javascript" src="assets/jsx/babel/skillset.js"></script>
+<script type="text/javascript" src="assets/jsx/babel/experiences.js"></script>
+<script type="text/javascript" src="assets/jsx/babel/main.js"></script>
 </body>
 </html> 
 
