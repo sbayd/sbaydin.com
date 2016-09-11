@@ -52,15 +52,16 @@
         <div class="contact-container container-block">
             <ul class="list-unstyled contact-list">
                 <li class="email"><i class="fa fa-envelope"></i><a
-                        href="mailto: berkay@greadea.com">sbaydin06@gmail.com</a>
+                        href="mailto: sbaydin06@gmail.com">sbaydin06@gmail.com</a>
                 </li>
                 <li class="phone"><i class="fa fa-phone"></i><a href="tel:+90507 808 4130">+90 (507) 808 4130</a></li>
                 <li class="website"><i class="fa fa-globe"></i><a
                         href="http://sbaydin.com"
                         target="_blank">sbaydin.com</a></li>
-                <li class="website"><i class="fa fa-globe"></i><a
+                <!--<li class="website"><i class="fa fa-globe"></i><a
                         href="http://greadea.com"
                         target="_blank">greadea.com</a></li>
+                 -->
                 <li class="linkedin"><i class="fa fa-linkedin"></i><a href="http://www.linkedin.com/in/sbaydin"
                                                                       target="_blank">linkedin.com/in/sbaydin </a></li>
                 <li class="github"><i class="fa fa-github"></i><a href="http://www.github.com/sbayd" target="_blank">github.com/sbayd</a>
