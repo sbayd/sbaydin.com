@@ -6,6 +6,12 @@
     "Description": "We can work together about creating any kind of management systems, mobile apps, image processing projects. My skills are listed <a href=\"#skills\">below.</a>"
   },
   {
+    "Title": "Software Developer",
+    "Date": "2016.8 - Present",
+    "Address": "<a href=\"http://jotform.com\" target=\"_blank\">JotForm</a>",
+    "Description": "I'm using ReactJS to develop new features for JotForm."
+  },
+  {
     "Title": "Full-Stack Developer",
     "Address": "<a href=\"http://ydyazilim.com\" target=\"_blank\">YD Software</a>, ANKARA METU Technopolis(ODTU Teknokent)",
     "Date": "2012 - 2016.8",
